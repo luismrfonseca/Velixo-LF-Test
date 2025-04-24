@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "webpack --config webpack.config.cjs",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/mocha": "^10.0.10",
+    "@types/office-js": "^1.0.492",
+    "@types/office-js-preview": "^1.0.585",
+    "@types/office-runtime": "^1.0.35",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "copy-webpack-plugin": "^13.0.0",
+    "jest": "^29.7.0",
+    "pretty-format": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@microsoft/office-js": "^1.1.110",
+    "core-js": "^3.41.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
